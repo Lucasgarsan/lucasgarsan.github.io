@@ -271,7 +271,7 @@ details.abstract-toggle[open] summary { margin-bottom: 8px; }
 
 .inst {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.95rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -279,3 +279,19 @@ details.abstract-toggle[open] summary { margin-bottom: 8px; }
   margin: 32px 0 0;
 }
 .inst:first-of-type { margin-top: 8px; }
+
+/* Teaching page: term on the right, like a table row */
+.teaching .course-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+}
+.teaching .course-block h3 { margin: 0; }
+.teaching .course-block .meta {
+  margin: 0;
+  flex-shrink: 0;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.teaching h2.section-title { font-size: 1.3rem; }
