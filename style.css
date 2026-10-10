@@ -268,3 +268,14 @@ details.abstract-toggle[open] summary { margin-bottom: 8px; }
   font-size: 0.95rem;
   color: var(--ink-soft);
 }
+
+.inst {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin: 32px 0 0;
+}
+.inst:first-of-type { margin-top: 8px; }
